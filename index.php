@@ -8,7 +8,7 @@
     <div class="navtop">
     <nav>
         <ul>
-            <li><a class="#" href="Index.php">Home</a></li>
+            <li><a class="active" href="Index.php">Home</a></li>
             <li><a class="#" href="#">Over Mij</a></li>
             <li><a class="#" href="#">Opleiding</a></li>
             <li><a class="#" href="#">Hobby's</a></li>

@@ -1,15 +1,29 @@
 
-.navtop {
-    background: #3333;
+nav {
     overflow: hidden;
-    padding: 2px;
+    padding: 0;
 }
+
+.navtop {
+    background-color: #04AA6D;
+    color: white;
+}
+
 
 li a {
     float: left;
-    padding: 4px;
+    padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
     list-style-type: none;
+}
+
+.streeploos {
+    text-decoration: none;
+    display: block;
 }
