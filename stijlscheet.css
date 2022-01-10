@@ -1,22 +1,24 @@
 .navtop li {
     float: left;
     color: #333;
-    text-align: center;
+
     text-decoration: none;
     font-size: 17px;
     list-style-type: none;
 }
 
 
-
-.navtop {
-    background-color: blue;
+.navtop, nav {
+    background-color: #f846f5;
     color: black;
 }
 
-body header{
+body{
     margin: 0;
-    padding: 0;
+}
+
+ul {
+    overflow: hidden;
 }
 
 .navtop a:hover {
@@ -25,9 +27,15 @@ body header{
 }
 
 .navtop a {
-    background-color: blue;
+    background-color: #f846f5;
     padding: 20px;
     text-decoration: none;
     text-align: center;
-    padding-bottom: 20px;
+    display: block;
 }
+
+.navtop a.active{
+    background-color: #6531e3;
+    color: black;
+}
+
