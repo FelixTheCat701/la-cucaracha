@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032acd78-1385-450b-a79e-46cacf11f03f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/image/Garage-ertan-foto-achtergrond.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stijlscheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stijlscheet.css" afterDir="false" />
     </list>
@@ -24,11 +25,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="22YEwlt82z6tn5l35Nep9Y7ErIt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -47,7 +52,7 @@
       <updated>1640006360434</updated>
       <workItem from="1640006362568" duration="88000" />
       <workItem from="1640006452711" duration="3548000" />
-      <workItem from="1641818838529" duration="3057000" />
+      <workItem from="1641818838529" duration="4415000" />
     </task>
     <servers />
   </component>
@@ -64,5 +69,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

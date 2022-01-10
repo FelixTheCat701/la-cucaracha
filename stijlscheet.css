@@ -9,7 +9,7 @@
 
 
 .navtop, nav {
-    background-color: #f846f5;
+    background-color: gray;
     color: black;
 }
 
@@ -27,7 +27,7 @@ ul {
 }
 
 .navtop a {
-    background-color: #f846f5;
+    background-color: gray;
     padding: 20px;
     text-decoration: none;
     text-align: center;
@@ -35,7 +35,11 @@ ul {
 }
 
 .navtop a.active{
-    background-color: #6531e3;
-    color: black;
+    background-color: darkgray;
+    color: #ffffff;
+}
+
+body {
+    background-image: url("image/Garage-ertan-foto-achtergrond.jpg") ;
 }
 
