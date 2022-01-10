@@ -1,0 +1,33 @@
+.navtop li {
+    float: left;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    list-style-type: none;
+}
+
+
+
+.navtop {
+    background-color: blue;
+    color: black;
+}
+
+body header{
+    margin: 0;
+    padding: 0;
+}
+
+.navtop a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navtop a {
+    background-color: blue;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
