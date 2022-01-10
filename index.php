@@ -1,6 +1,6 @@
 <?php
 ?>
-<link href="La-Cucaracha-syle.css" type="text/css" rel="stylesheet">
+<link href="stijlscheet.css" type="text/css" rel="stylesheet">
 <header
     <div class="navtop">
     <nav>
