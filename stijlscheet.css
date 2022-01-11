@@ -1,7 +1,6 @@
 .navtop li {
     float: left;
     color: #333;
-
     text-decoration: none;
     font-size: 17px;
     list-style-type: none;
@@ -43,3 +42,15 @@ body {
     background-image: url("image/Garage-ertan-foto-achtergrond.jpg") ;
 }
 
+h1 .titel {
+    text-align: center;
+    color: black;
+    font-size: xxx-large;
+    margin: 0;
+    margin-top: 0.9%;;
+}
+
+div .center {
+    margin: auto;
+    position: center;
+}
