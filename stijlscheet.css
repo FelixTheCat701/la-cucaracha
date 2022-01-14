@@ -1,0 +1,56 @@
+.navtop li {
+    float: left;
+    color: #333;
+    text-decoration: none;
+    font-size: 17px;
+    list-style-type: none;
+}
+
+
+.navtop, nav {
+    background-color: gray;
+    color: black;
+}
+
+body{
+    margin: 0;
+}
+
+ul {
+    overflow: hidden;
+}
+
+.navtop a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navtop a {
+    background-color: gray;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.navtop a.active{
+    background-color: darkgray;
+    color: #ffffff;
+}
+
+body {
+    background-image: url("image/Garage-ertan-foto-achtergrond.jpg") ;
+}
+
+h1 .titel {
+    text-align: center;
+    color: black;
+    font-size: xxx-large;
+    margin: 0;
+    margin-top: 0.9%;;
+}
+
+div .center {
+    margin: auto;
+    position: center;
+}
