@@ -14,6 +14,7 @@
 
 body{
     margin: 0;
+    overflow: hidden;
 }
 
 ul {
@@ -43,7 +44,7 @@ body {
     background-image: url("image/Garage-ertan-foto-achtergrond.jpg") ;
 }
 
-h1 .titel {
+.titel {
     text-align: center;
     color: black;
     font-size: xxx-large;
@@ -57,4 +58,65 @@ div .center {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+td, tr, table {
+    border: 1px solid black;
+}
+
+.CRUD {
+    border: solid #000000 3px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fc0000;
+}
+
+.copyright {
+    position: relative;
+    float: bottom;
+    color: #0004ff;
+}
+
+footer {
+    clear: both;
+    height: 200px;
+    margin-top: 666px;
+    position: relative;
+
+}
+
+.knop {
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color:#007dc1;
+    border-radius:3px;
+    border:1px solid #124d77;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+
+}
+.knop:hover {
+    background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background-color:#0061a7;
+}
+.knop:active {
+    position:relative;
+    top:1px;
+}
+
+.knopcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    position: relative;
 }
