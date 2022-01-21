@@ -5,7 +5,7 @@
 <div class="navtop">
     <nav>
         <ul>
-            <li><a class="#" href="">Home</a></li>
+            <li><a class="#" href="home.php">Home</a></li>
             <li><a class="#" href="Over-ons.php">Over ons</a></li>
             <li><a class="#" href="#">Jou auto</a></li>
             <li><a class="#" href="#">Auto toevoegen</a></li>
