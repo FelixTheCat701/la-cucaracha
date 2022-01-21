@@ -39,5 +39,8 @@ if ($_SESSION['loggedin']){
 }
 <?php
 }
+else {
+    echo "<p class='LNS'>je moet inloggen om op deze pagina te komen</p>";
+}
 
 
