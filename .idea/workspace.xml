@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032acd78-1385-450b-a79e-46cacf11f03f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/islex.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websitehome.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUD.php" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Over-ons.php" beforeDir="false" afterPath="$PROJECT_DIR$/Over-ons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websitehome.php" beforeDir="false" afterPath="$PROJECT_DIR$/websitehome.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +57,7 @@
       <workItem from="1641818838529" duration="8065000" />
       <workItem from="1642501507526" duration="2388000" />
       <workItem from="1642752796297" duration="10570000" />
+      <workItem from="1643028484696" duration="647000" />
     </task>
     <servers />
   </component>

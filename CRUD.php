@@ -3,27 +3,25 @@ session_start();
 if ($_SESSION['loggedin']){
     ?>
 <!--        link voor stylesheet-->
-   echo <link href="stijlscheet.css" type="text/css" rel="stylesheet">
-<header>
-<div class="navtop">
-    <nav>
-        <ul>
-            <li><a class="#" href="home.php">Home</a></li>
-            <li><a class="#" href="Over-ons.php">Over ons</a></li>
-            <li><a class="#" href="#">Jou auto</a></li>
-            <li><a class="#" href="#">Auto toevoegen</a></li>
-            <li><a class="#" href="#">Review</a></li>
-            <li><a class="#" href="#">CRUD</a></li>
-            <li><a class="#" href="#">Sociale Media</a></li>
-            <li><a class="#" href="#">CV</a></li>
-            <li><a class="#" href="Contact.php">Contact</a></li>
-        </ul>
-    </nav>
-</div>
-</header>
+    <link href="stijlscheet.css" type="text/css" rel="stylesheet">
+    <header
+    <!--    navigatie bar-->
+    <div class="navtop">
+        <nav>
+            <ul>
+                <li><a class="active" href="websitehome.php">Home</a></li>
+                <li><a class="#" href="Over-ons.php">Over ons</a></li>
+                <li><a class="#" href="#">Review</a></li>
+                <li><a class="#" href="#">Sociale Media</a></li>
+                <li><a class="#" href="logout.php">Log uit</a></li>
+                <li><a class="#" href="Contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
 <!--CRUD knoppen-->
 <div class="knopcontainer">
-    <a href="#" class="knop">Klant toevoegen</a>
+    <a href="" class="knop">Klant toevoegen</a>
     <br>
     <a href="#" class="knop">Klant updaten</a>
     <br>
@@ -36,6 +34,8 @@ if ($_SESSION['loggedin']){
     <a href="#" class="knop">Auto updaten</a>
     <br>
     <a href="#" class="knop">Auto zoeken</a>
+    <br>
+    <a href="#" class="knop">Alle auto's</a>
 </div>
 }
 <?php
