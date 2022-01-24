@@ -1,8 +1,7 @@
 <?php
 ?>
 <link href="stijlscheet.css" type="text/css" rel="stylesheet">
-<header
-<!--    nav bar-->
+<header>
 <div class="navtop">
     <nav>
         <ul>
