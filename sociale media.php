@@ -1,6 +1,5 @@
 <?php
 ?>
-<link href="stijlscheet.css" type="text/css" rel="stylesheet">
 <header
 <!--    navigatie bar-->
 <div class="navtop">
