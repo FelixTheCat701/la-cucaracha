@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="032acd78-1385-450b-a79e-46cacf11f03f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Over-ons.php" beforeDir="false" afterPath="$PROJECT_DIR$/Over-ons.php" afterDir="false" />
-    </list>
+    <list default="true" id="032acd78-1385-450b-a79e-46cacf11f03f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +51,7 @@
       <workItem from="1641818838529" duration="8065000" />
       <workItem from="1642501507526" duration="2388000" />
       <workItem from="1642752796297" duration="10570000" />
-      <workItem from="1643028484696" duration="1485000" />
+      <workItem from="1643028484696" duration="1950000" />
     </task>
     <servers />
   </component>
