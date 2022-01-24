@@ -9,11 +9,11 @@ if ($_SESSION['loggedin']){
     <div class="navtop">
         <nav>
             <ul>
-                <li><a class="active" href="websitehome.php">Home</a></li>
+                <li><a class="" href="websitehome.php">Home</a></li>
                 <li><a class="#" href="Over-ons.php">Over ons</a></li>
-                <li><a class="#" href="#">Review</a></li>
-                <li><a class="#" href="#">Sociale Media</a></li>
-                <li><a class="#" href="logout.php">Log uit</a></li>
+                <li><a class="#" href="review.php">Review</a></li>
+                <li><a class="#" href="sociale%20media.php">Sociale Media</a></li>
+                <li><a class="#" href="">Log out</a></li>
                 <li><a class="#" href="Contact.php">Contact</a></li>
             </ul>
         </nav>
@@ -40,6 +40,7 @@ if ($_SESSION['loggedin']){
 }
 <?php
 }
+//dit is wat je krijgt te zien als je niet goed inlogd
 else {
     echo "<p class='LNS'>je moet inloggen om op deze pagina te komen</p>";
 }
