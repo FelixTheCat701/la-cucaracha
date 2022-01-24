@@ -21,21 +21,21 @@ if ($_SESSION['loggedin']){
     </header>
 <!--CRUD knoppen-->
 <div class="knopcontainer">
-    <a href="" class="knop">Klant toevoegen</a>
+    <a href="create.php" class="knop">Klant toevoegen</a>
     <br>
-    <a href="#" class="knop">Klant updaten</a>
+    <a href="read.php" class="knop">Klant updaten</a>
     <br>
-    <a href="#" class="knop">Klant zoeken</a>
+    <a href="search.php" class="knop">Klant zoeken</a>
     <br>
-    <a href="#" class="knop">Alle klanten</a>
+    <a href="read.php" class="knop">Alle klanten</a>
     <br>
-    <a href="#" class="knop">Auto toevoegen</a>
+    <a href="createauto.php" class="knop">Auto toevoegen</a>
     <br>
-    <a href="#" class="knop">Auto updaten</a>
+    <a href="readauto.php" class="knop">Auto updaten</a>
     <br>
-    <a href="#" class="knop">Auto zoeken</a>
+    <a href="searchauto.php" class="knop">Auto zoeken</a>
     <br>
-    <a href="#" class="knop">Alle auto's</a>
+    <a href="readauto.php" class="knop">Alle auto's</a>
 </div>
 }
 <?php
