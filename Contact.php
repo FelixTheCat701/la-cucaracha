@@ -1,8 +1,12 @@
 <?php
 ?>
 <link href="stijlscheet.css" type="text/css" rel="stylesheet">
+<<<<<<< HEAD
 <header
 <!--    navigatie bar-->
+=======
+<header>
+>>>>>>> De_Cucaracha's
 <div class="navtop">
     <nav>
         <ul>
