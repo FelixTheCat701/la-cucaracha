@@ -2,6 +2,7 @@
 session_start();
 if ($_SESSION['loggedin']){
     ?>
+<!--        link voor stylesheet-->
    echo <link href="stijlscheet.css" type="text/css" rel="stylesheet">
 <header>
 <div class="navtop">
@@ -20,7 +21,7 @@ if ($_SESSION['loggedin']){
     </nav>
 </div>
 </header>
-
+<!--CRUD knoppen-->
 <div class="knopcontainer">
     <a href="#" class="knop">Klant toevoegen</a>
     <br>

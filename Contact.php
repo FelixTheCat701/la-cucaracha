@@ -2,6 +2,7 @@
 ?>
 <link href="stijlscheet.css" type="text/css" rel="stylesheet">
 <header
+<!--    nav bar-->
 <div class="navtop">
     <nav>
         <ul>

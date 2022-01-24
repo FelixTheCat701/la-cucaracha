@@ -7,34 +7,34 @@ if(isset($_POST["submit"]))
     SQLZonderResult($db, "INSERT INTO klant(naam, adres , postcode, woonplaats)
         VALUES(:x, :adres, :postcode, :woonplaats)",
         [
-                "postcode" => filter_input(INPUT_POST, "postcode", FILTER_SANITIZE_STRING), $_POST["postcode"],
-                "x" => filter_input(INPUT_POST, "naam", FILTER_SANITIZE_STRING), $_POST["naam"],
-                "adres" => filter_input(INPUT_POST, "adres", FILTER_SANITIZE_STRING), $_POST["adres"],
-                "woonplaats" => filter_input(INPUT_POST, "woonplaats", FILTER_SANITIZE_STRING), $_POST["woonplaats"]
+                "postcode" => filter_input(INPUT_POST, "postcode", FILTER_SANITIZE_STRING),
+                "x" => filter_input(INPUT_POST, "naam", FILTER_SANITIZE_STRING),
+                "adres" => filter_input(INPUT_POST, "adres", FILTER_SANITIZE_STRING),
+                "woonplaats" => filter_input(INPUT_POST, "woonplaats", FILTER_SANITIZE_STRING),
         ]);
 ?>
 
 <form method="post">
     <label>
-        naam
+        Naam
         <input type="text" name="naam">
     </label>
     <br>
     <label>
-        adres
+        Adres
         <input type="text" name="adres">
     </label>
     <br>
     <label>
-        postcode
+        Postcode
         <input type="text" name="postcode">
     </label>
     <br>
     <label>
-        woonplaats
+        Woonplaats
         <input type="text" name="woonplaats">
     </label>
     <br>
-    verzenden
+    Verzenden
     <input type="submit" name="submit">
 </form>
